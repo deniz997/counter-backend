@@ -22,9 +22,19 @@ SERVER_TYPE=HTTP
 //Define port number
 SERVER_PORT=8080
 ```
-To start the server run the following command
+To start the server with a new build run the following command
+```sh
+npm run dev
+```
+
+To start the built server
 ```sh
 npm start
+```
+
+To build the TypeScript project
+```sh
+npm run build
 ```
 ### HTTP
 
